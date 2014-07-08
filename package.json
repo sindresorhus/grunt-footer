@@ -1,6 +1,6 @@
 {
   "name": "grunt-footer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Add a footer to files",
   "license": "MIT",
   "repository": "sindresorhus/grunt-footer",
