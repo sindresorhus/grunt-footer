@@ -13,6 +13,8 @@ $ npm install --save-dev grunt-footer
 ## Usage
 
 ```js
+require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks
+
 grunt.initConfig({
 	info: 'footer text',
 	footer: {
@@ -27,7 +29,6 @@ grunt.initConfig({
 	}
 });
 
-grunt.loadNpmTasks('grunt-footer');
 grunt.registerTask('default', ['footer']);
 ```
 
