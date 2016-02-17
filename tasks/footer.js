@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 
 		this.files.forEach(function (el) {
 			var src = el.src[0];
-			var out = grunt.file.read(src) + detectNewline(src) + options.text;
+			var out = grunt.file.read(src) + detectNewline.graceful(src) + options.text;
 			grunt.file.write(el.dest, out);
 		});
 	});
