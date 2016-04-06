@@ -5,7 +5,7 @@
 
 ## Install
 
-```sh
+```
 $ npm install --save-dev grunt-footer
 ```
 
@@ -44,4 +44,4 @@ Text to be appended to files.
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
