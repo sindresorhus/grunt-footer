@@ -1,4 +1,4 @@
-# grunt-footer [![Build Status](https://travis-ci.org/sindresorhus/grunt-footer.svg?branch=master)](https://travis-ci.org/sindresorhus/grunt-footer)
+# grunt-footer
 
 > Add a footer to files
 
